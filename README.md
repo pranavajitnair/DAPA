@@ -2,8 +2,8 @@
 Code for our ACL 2023 Findings paper: Domain Aligned Prefix Averaging for Domain Generalization in Abstractive Summarization
 <hr>
 
-## Environment Settings
-First, create the following environments settings:
+## Environment Settings and Data
+Create the following environments settings:
 
 ```
 virtualenv --python=python3 env         # for creatig prefix checkpoints required for DAPA
@@ -22,6 +22,8 @@ cd ../transformers
 pip install -e ./
 deactivate
 ```
+
+Download the preprocessed data [here](https://drive.google.com/file/d/1mRwBWJ5DDo3Qb4I3LQirueBcHhzWTqkp/view?usp=sharing). Unzip the data folder, and move all files to this main repository.
 <hr>
 
 ## Prefix Checkpoints

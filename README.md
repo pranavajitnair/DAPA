@@ -2,6 +2,7 @@
 Code for our ACL 2023 Findings paper: Domain Aligned Prefix Averaging for Domain Generalization in Abstractive Summarization
 <hr>
 
+## Environment Settings
 First, create the following environments settings:
 
 ```
@@ -23,6 +24,7 @@ deactivate
 ```
 <hr>
 
+## Prefix Checkpoints
 Next, create prefix checkpoints by running the following:
 
 ```
@@ -48,6 +50,7 @@ deactivate
 After training, rename the best performing checkpoints as 'final_checkpoint.pth'. The best performing checkpoints produce the higest averge ROUGE scores.
 <hr>
 
+## DAPA
 Reproduce DAPA results by running the following:
 
 ```

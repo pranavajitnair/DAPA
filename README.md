@@ -67,3 +67,4 @@ CUDA_VISIBLE_DEVICES=0 python main_approach.py --test_file samsum_test.pickle --
 
 deactivate
 ```
+For the complete set of experiments, refer to runs.sh

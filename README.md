@@ -39,7 +39,7 @@ mkdir samsum
 mkdir reddit
 cd ..
 
-CUDA_VISIBLE_DEVICES=0 python Train_T5_with_embeds.py --train_file scientific_data_AIC_train.pickle --dev_file scientific_data_AIC_dev.pickle --model_name t5-small --store prefix_checkpoints/scientific --print_every 100 --eval_every 500 --file embed_store/scientific_data_AIC50_train_embed.pth --num_token 50 --bs 5
+CUDA_VISIBLE_DEVICES=0 python Train_T5_with_embeds.py --train_file scientific_data_AIC_train.pickle --dev_file scientific_data_AIC_dev.pickle --model_name t5-small --store prefix_checkpoints/scientific --print_every 100 --eval_every 500 --file embed_store/scientific50_train_embed.pth --num_token 50 --bs 5
 
 CUDA_VISIBLE_DEVICES=0 python Train_T5_with_embeds.py --train_file cnn_train.pickle --dev_file cnn_dev.pickle --model_name t5-small --store prefix_checkpoints/cnn --print_every 1000 --eval_every 28000 --file embed_store/cnn50_train_embed.pth --num_token 50 --bs 10
 

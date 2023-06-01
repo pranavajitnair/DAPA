@@ -1,5 +1,5 @@
 # DAPA
-Code for our ACL 2023 Findings paper: Domain Aligned Prefix Averaging for Domain Generalization in Abstractive Summarization
+Code for our ACL 2023 Findings paper: [Domain Aligned Prefix Averaging for Domain Generalization in Abstractive Summarization](https://arxiv.org/abs/2305.16820)
 <hr>
 
 ## Environment Settings and Data
